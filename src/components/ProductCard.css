@@ -1,0 +1,27 @@
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    transition: 0.2s;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .product-card button {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #333;
+  }
+  
