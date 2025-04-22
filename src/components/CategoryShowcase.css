@@ -26,7 +26,7 @@
   }
   
   .main-title span {
-    color: #9a87e2;
+    color: #0056a5;
   }
   
   .description {
@@ -49,13 +49,14 @@
   .category-right {
     flex: 1;
     min-width: 300px;
-    display: grid;
+    display: flex;
     gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+  
   }
   
   .category-box {
-    background-color: #9a87e2;
+    background-color: #2d8fd5;
     color: white;
     border-radius: 12px;
     padding: 20px;
@@ -75,5 +76,11 @@
   .box-text {
     font-size: 0.9rem;
     line-height: 1.4;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .category-right {
+     flex-direction: column;
+    }
   }
   

@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: #f9f4f9;
+    background-color: #eef6fb;
     padding: 40px 20px;
   }
   
@@ -15,7 +15,7 @@
   }
   
   .hero-subtitle {
-    color: #9a87e2;
+    color: #0056a5;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -25,7 +25,7 @@
   .hero-title {
     font-size: 2rem;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 36px;
     margin-bottom: 20px;
     text-align: left;
   }

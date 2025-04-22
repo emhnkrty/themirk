@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background: linear-gradient(to right, #333, #555);
+    background: linear-gradient(to right, #1c7dc1, #1d4967);
     color: white;
     flex-wrap: wrap;
     position: sticky;
@@ -31,7 +31,7 @@
   }
   
   .nav a:hover {
-    border-bottom: 2px solid #ffcc00;
+    border-bottom: 1px solid #e0f0ff;
   }
   
   .cart button {
