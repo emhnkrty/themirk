@@ -2,6 +2,13 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
+  const scrollToSlider = () => {
+    const section = document.getElementById('coming-soon');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="header">
       <div className="logo-container">
@@ -10,13 +17,10 @@ const Header = () => {
       </div>
 
       <nav className="nav">
-        <a href="/">Home</a>
-        <a href="/">Pets</a>
-        <a href="/">Home Decor</a>
-        <a href="/">Contact</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); scrollToSlider(); }}>Pets</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); scrollToSlider(); }}>Beauty</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); scrollToSlider(); }}>Home Decor</a>
       </nav>
-
-     
     </header>
   );
 };
