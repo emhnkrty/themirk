@@ -9,78 +9,93 @@ import { Navigation } from 'swiper/modules';
 const products = [
   {
     src: '/images/pet1.jpg',
-    description: 'Comfortable and fun products your pet will adore.',
-    price: 'Average price: $10 – $25'
+    name:'Pet Feeding Mat',
+    description: 'No more mess. Anti-slip, easy-clean mat.',
+    price: '💰 $12.99'
   },
   {
     src: '/images/beauty1.jpg',
-    description: 'High-quality beauty products for your daily care routine.',
-    price: 'Average price: $15 – $40'
+    name:'Self-Cleaning Hair Brush',
+    description: 'Tangle-free hair in seconds. Clean with one click.',
+    price: '💰 $19.99'
   },
   {
     src: '/images/home1.jpg',
-    description: 'Stylish decor pieces to elevate your living space.',
-    price: 'Average price: $25 – $80'
+    name:'Home Decor Shelves',
+    description: 'Display what matters. Sleek, space-saving shelves.',
+    price: '💰 $39.99'
   },
   {
     src: '/images/pet2.jpg',
-    description: 'Comfortable and fun products your pet will adore.',
-    price: 'Average price: $10 – $25'
+    name:'Automatic Food & Water Dispenser',
+    description: 'Dual feeder for convenient pet mealtime',
+    price: '💰 $23.99'
   },
   {
     src: '/images/beauty2.jpg',
-    description: 'High-quality beauty products for your daily care routine.',
-    price: 'Average price: $15 – $40'
+    name:'18-Piece Makeup Brush Set',
+    description: 'Flawless makeup, every day. Soft, pro-quality brushes.',
+    price: '💰 Price: $29.99'
   },
   {
     src: '/images/home2.jpg',
-    description: 'Stylish decor pieces to elevate your living space.',
-    price: 'Average price: $25 – $80'
+    name:'Candle Warmer Lamp',
+    description: 'Warm glow, no flame. Cozy home vibes.',
+    price: '💰 $27.99'
   },
   {
     src: '/images/pet3.jpg',
-    description: 'Comfortable and fun products your pet will adore.',
-    price: 'Average price: $10 – $25'
+    name:'Pet Travel Carrier Bag',
+    description: 'Comfy trips for your pet. Lightweight and breathable.',
+    price: '💰 $34.99'
   },
   {
     src: '/images/beauty3.jpg',
-    description: 'High-quality beauty products for your daily care routine.',
-    price: 'Average price: $15 – $40'
+    name:'Luxury Makeup Brush Set (3 pcs)',
+    description: 'Soft, durable brushes for smooth application.',
+    price: '💰 $14.90'
   },
   {
     src: '/images/home3.jpg',
-    description: 'Stylish decor pieces to elevate your living space.',
-    price: 'Average price: $25 – $80'
+    name:'Electric Mini Indoor Fireplace',
+    description: 'Indoor s’mores made simple. Cozy, safe, and stylish.',
+    price: '💰 $49.99'
   },
   {
     src: '/images/pet4.jpg',
-    description: 'Comfortable and fun products your pet will adore.',
-    price: 'Average price: $10 – $25'
+    name:'Pet Bath & Grooming Set',
+    description: 'Multi-piece set for easy washing and brushing.',
+    price: '💰 $11.50'
   },
   {
     src: '/images/beauty4.jpg',
-    description: 'High-quality beauty products for your daily care routine.',
-    price: 'Average price: $15 – $40'
+    name:'Ceramic Hair Styling Brush',
+    description: 'Heats quickly for perfect curls and volume.',
+    price: '💰 $34.95'
   },
   {
     src: '/images/home4.jpg',
-    description: 'Stylish decor pieces to elevate your living space.',
-    price: 'Average price: $25 – $80'
+    name:'Turtle-Shaped Garden Light',
+    description: 'Solar-powered decorative LED lamp.',
+    price: '💰 $18.75'
   },
   {
     src: '/images/pet5.jpg',
-    description: 'Comfortable and fun products your pet will adore.',
-    price: 'Average price: $10 – $25'
+    name:'Pet Grooming Brush',
+    description: 'Smooth coat, happy pet. Self-cleaning design.',
+    price: '💰 $17.99'
   },
   {
     src: '/images/beauty5.jpg',
-    description: 'High-quality beauty products for your daily care routine.',
-    price: 'Average price: $15 – $40'
+    name:'Rose Gold Eyelash Curler',
+    description: 'Comfortable grip, perfect curling in seconds.',
+    price: '💰 $8.90'
   },
   {
     src: '/images/home5.jpg',
-    description: 'Stylish decor pieces to elevate your living space.',
-    price: 'Average price: $25 – $80'
+    name:'Blessed Candle Holder Set',
+    description: 'Add warmth and style to your home with this rustic candle holder set.',
+    price: '💰 $34.99'
   }
 ];
 
@@ -119,6 +134,7 @@ const ComingSoonSlider = () => {
           <SwiperSlide key={index}>
             <div className="slider-card">
               <img src={product.src} alt={`Slide ${index + 1}`} className="slider-image" />
+              <div className="slider-name">{product.name}</div>
               <div className="slider-description">{product.description}</div>
               <div className="slider-price">{product.price}</div>
             </div>
