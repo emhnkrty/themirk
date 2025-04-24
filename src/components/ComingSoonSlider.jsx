@@ -35,7 +35,7 @@ const products = [
     src: '/images/beauty2.jpg',
     name:'18-Piece Makeup Brush Set',
     description: 'Flawless makeup, every day. Soft, pro-quality brushes.',
-    price: '💰 Price: $29.99'
+    price: '💰 $29.99'
   },
   {
     src: '/images/home2.jpg',
